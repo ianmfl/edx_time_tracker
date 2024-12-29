@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 300px;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+#time-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#time-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#focus-mode {
+    padding: 20px;
+}
+
+#focus-toggle {
+    margin-right: 5px;
+}
+
+p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+#open-focus-settings {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#open-focus-settings:hover{
+    background-color: #1976d2;
+}
